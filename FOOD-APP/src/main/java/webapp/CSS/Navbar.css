@@ -1,0 +1,114 @@
+/* Reset and base style */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(135deg, #ffffff, #f8f8f8);
+    padding: 12px 24px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+   	postion:fixed;
+}
+
+.logo img {
+    height: 80px;
+    border-radius: 8px;
+}
+
+.search-bar form {
+    display: flex;
+    align-items: center;
+    background-color: #f1f1f1;
+    border-radius: 6px;
+    padding: 5px 10px;
+}
+
+.search-bar input[type="text"] {
+    border: none;
+    background: transparent;
+    padding: 8px;
+    width: 250px;
+    font-size: 14px;
+    outline: none;
+}
+
+.search-bar button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.search-bar button:hover {
+    background-color: #218838;
+}
+
+.nav-links {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.nav-links a {
+    text-decoration: none;
+    font-size: 14px;
+    padding: 8px 14px;
+    
+    transition: background 0.3s ease;
+}
+.profile-btn:hover{
+	color:orange;
+}
+.login-btn {
+   
+    color: black;;
+}
+.admin-login-btn {
+	  
+    color: black;
+    
+}
+.signup-btn {
+    
+    color: black;
+}
+
+.logout-btn {
+    
+    color: black;
+}
+
+.cart-btn {
+   
+    color: #212529;
+}
+.admin-login-btn:hover{
+	color:orange;
+}
+.login-btn:hover {
+    color:orange;
+}
+
+.signup-btn:hover {
+    color:orange;
+}
+
+.logout-btn:hover {
+    color:orange;
+}
+
+.cart-btn:hover {
+  color:orange;
+}
